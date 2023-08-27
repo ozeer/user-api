@@ -1,0 +1,13 @@
+app:
+  name: 'user-api'
+  version: '1.0.0'
+  port: 8021
+server:
+  host: '127.0.0.1'
+  port: 8088
+mysql:
+  host: '127.0.0.1'
+  port: 3306
+  db: 'learn'
+  user: 'root'
+  password: '123456'
