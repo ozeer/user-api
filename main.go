@@ -18,6 +18,7 @@ func main() {
 	// 3. 初始化Router
 	router := initialize.Routers()
 	err := router.Run(fmt.Sprintf(":%d", global.Conf.App.Port))
+	// global.Log.Info("Start server! Listen: 0.0.0.0:", global.Conf.App.Port)
 	if err != nil {
 		panic(err)
 	}

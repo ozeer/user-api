@@ -25,7 +25,6 @@ func InitConfig() {
 			env = global.ENV_DEV
 		}
 	}
-	fmt.Println("env: ", env)
 	configFileName := fmt.Sprintf("config-%s.yaml", env)
 
 	v.SetConfigName(configFileName) // name of config file (without extension)
